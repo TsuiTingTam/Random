@@ -558,13 +558,6 @@ img {
 
 
 
-
-div {
-    
-}
-
-
-
 #img {
     height: 700px;
     background-color: black;
@@ -796,6 +789,11 @@ a {
         text-align: center;
     }
 /* Mobile */
+    
+    body{
+        width: auto;
+    }
+    
     #random_green{
         left: 0;
         bottom: 0;
@@ -965,7 +963,12 @@ nav ul li {
 	width: 100%;
 }
     /* Small Tablets */
-        #randomdiv  {
+    
+    body{
+        width: auto;
+    }
+    
+    #randomdiv  {
         position: absolute;
         max-width: 50vw;
         font-size: 80px;
