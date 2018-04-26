@@ -879,6 +879,7 @@ a {
     }
     
     #greentext {
+        color: purple;
         position: relative;
         top: 80vh;
         font-size: 8pt;
