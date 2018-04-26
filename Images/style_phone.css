@@ -2,15 +2,16 @@
 
 @media (max-width: 320px){
 	
-	/* Body */
-	
+@charset "UTF-8";
+/* Body */
 body {
 	font-family: "adelle sans", sans-serif;
 	margin: 0px;
 	font-style: normal;
 	font-weight: 200;
+	width: 100%;
 	overflow-x: hidden;
-	width: 100vw;
+	
 }
 /* Container */
 .container {
@@ -69,8 +70,8 @@ ul li:hover a {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: -5px;
-	margin-left: 35%;
-	font-size: 30px;
+	margin-left: 45%;
+	font-size: 20px;
 }
 /* Hero Section */
 .hero {
@@ -85,9 +86,9 @@ ul li:hover a {
 .content {
 	text-align: left;
 	margin-top: 2px;
-	margin-left: 35%;
-	margin-right: 9%;
-	font-size: 10px;
+	margin-left: 45%;
+	margin-right: 5%;
+	font-size: 12px;
 	font-weight: normal;
 	line-height: 1.5;
     top: 500px;
@@ -486,10 +487,10 @@ nav ul li {
 #clear {
 	right: 0;
     max-height: 50px;
-	margin: 10px 10px 0 0;
+	margin: 25px 20px 0 0;
     max-width: 80px;
 	position: fixed;
-    max-width: 35px;
+    max-width: 50px;
     background-repeat: no-repeat;
     background-size: contain;
     background-color: transparent;
@@ -522,15 +523,12 @@ button {
 
 
 #binary {
-
     bottom: 15%;
 	margin-left: 12%;
-    width: 30%;
+    width: 60%;
 	letter-spacing: 2px;
 	font-family: 'Roboto';
-    max-height: 30%;
 	font-size: 8pt;
-    
 
 }
 
@@ -542,6 +540,7 @@ button {
 	margin-bottom: -15px;
 	margin-left: 65%;
 	font-size: 50px;
+}
 }
 
 canvas {
@@ -581,15 +580,14 @@ head {
     border: none;
 	font-family:'Adelle Sans', sans-serif;
 	font-weight: 900;
-	font-size: 50px;
+	font-size: 40px;
 }
 
 #arrow {
     position: absolute;
-    right: 0;
-    margin-right: 200px;
-    max-width: 70%;
-    margin-top: 35%;
+    left: 50%;
+    max-width: 350px;
+    margin-top: 200px;
 }
 
 #contentcontainer {
@@ -600,6 +598,7 @@ head {
     color: #00FF00;
     opacity: 0.5;
     transition: all 1s linear;
+
     
 }
 
@@ -619,7 +618,7 @@ head {
     border: none;
 	font-family:'Adelle Sans', sans-serif;
 	font-weight: 900;
-	font-size: 100px;
+	font-size: 50px;
     border: transparent;
     z-index: 100;
     
@@ -640,10 +639,9 @@ head {
 
 #pencil {
     position: absolute;
-    right: 0;
-	background: blue;
-    top: 50%;
-    max-width: 50px;
+    right: -80px;
+    top: 300px;
+    max-width: 250px;
     cursor: url('Images/Pencil.png'), pointer;
 }
 
@@ -703,20 +701,20 @@ head {
 #whitetext {
     position: absolute;
     color: white;
-	margin-right: 10%;
-    top: 20%;
+    top: 30%;
     left: 20%;
-    font-size: 20px;
+	margin-right: 10%;
+    font-size: 25px;
 	font-weight: 700;
 }
 
 #greentext {
-    position: absolute;
-    top: 75%;
-	left: 70%;
+    position: relative;
+    top: 400px;
+    left: 75%;
     color: #00FF00;
 	font-weight: 700;
-	font-size: 9pt;
+	font-size: 12pt;
 }
 
 
@@ -826,10 +824,10 @@ a {
 
 #menu {
     position: fixed;
-    height: 30px;
-    width: 15px;
-    margin-left: 5px;
-	margin-top: 5px;
+    height: 50px;
+    width: 25px;
+    margin-left: 10px;
+	margin-top: 10px;
 	z-index: 1000;
     background-repeat: no-repeat;
     background-size: contain;
@@ -841,10 +839,10 @@ a {
 
 #menu_white {
     position: fixed;
-    height: 30px;
-    width: 15px;
-    margin-left: 5px;
-	margin-top: 5px;
+    height: 50px;
+    width: 25px;
+    margin-left: 10px;
+	margin-top: 10px;
 	z-index: 1000;
     background-image: url(Images/Menu3_white.png);
     background-repeat: no-repeat;
@@ -910,12 +908,27 @@ a {
 
 
 #right {
-	right: 10%;
-	top: 15%;
+	position: absolute; 
+	top: 170vh; 
+	right:12%; 
+	max-width: 10%; 
+	z-index: 1000; 
+	padding: 20px; 
+	cursor: pointer; 
+	z-index: 5000;
 }
 
-@media (max-width: 320px){
+.wrap {
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap;
 }
 
-@media (max-width: 320px){
+
+
+.section {
+    height: 100vh;
+}
+
+
 }
