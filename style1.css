@@ -1043,6 +1043,11 @@ nav ul li {
         max-width: 20px;
     }
     
+    #greentext {
+        
+        color: red;
+    }
+    
 /* Small Tablets --------------------*/
 }
 
