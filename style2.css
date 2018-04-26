@@ -511,9 +511,9 @@ head {
 }
 
 #mainpara {
-    position: 
-    relative;
-    top: 2%;
+    position: absolute;
+    right: 0;
+    top: 50px;
     margin-left: 67%;
     margin-right: 6%;
     font-size: 15px;
@@ -532,8 +532,9 @@ head {
 
 .quotes {
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 12%;
+    right: 28%;
     font-weight: 900;
     font-size: 20pt;
     
@@ -548,6 +549,7 @@ head {
     z-index: 300;
     font-size: 15px;
     line-height: 140%;
+    top:50%;
 }
 
 img {
@@ -556,7 +558,15 @@ img {
 }
 
 
-
+#intech {
+    position: absolute;
+    top: 0;
+    font-size: 20pt;
+    font-weight: 600; 
+    margin-top: 2;
+    margin-left: 67%;
+    margin-right: 6%;
+}
 
 #img {
     height: 700px;
@@ -584,7 +594,6 @@ img {
 }
 
 .blur {
-    
     filter: blur(5px);
   -webkit-filter: blur(5px);
 }
@@ -706,6 +715,7 @@ a {
 
 
 .section {
+    position: relative;
     height: 100vh;
 }
 
@@ -795,10 +805,40 @@ a {
         width: auto;
     }
     
+            header {
+            float: none;
+            width: 100%;
+        }
+
+
+
+        #menu{
+            margin:  -10;
+            top: 3px;
+            max-height: 13vw;
+            max-width: 6.5vw;
+        }
+    
+    #green{
+        position: absolute;
+        font-size: 25pt;
+        top: -3vh;
+        right: 0;
+        transition: all 1s linear;
+        opacity: 0.6;
+    }
+    
+    #white{
+        font-size:0;
+    }
+    
+    #left{
+        width: 0;
+    }
+    
     #random_green{
-        left: 0;
-        top: 92vh;
-        margin-left: 3vh;
+        top: 5vh;
+        right: 0;
     }
     
     #randomdiv  {
@@ -807,6 +847,7 @@ a {
             left: 0;
             top: 0;
             margin-left: 0;
+            right: 0;
             float: none;
         }
         
@@ -814,8 +855,11 @@ a {
             position: absolute;
             max-width: 20vw;
             font-size: 35pt;
-            margin-left: 0;
+            right: 0;
+            margin-right: 5vw;
+            left: 0;
             float: none;
+            transition: all 1s linear;
         }
 
         #pencil {
@@ -830,45 +874,82 @@ a {
             left: 10%;
 
         }
-
-        .title {
-            margin-top: 0px;
-            margin-left: 30%;
-            font-size: 16pt;
+ /* Mobile */   
+    #img{
+        width: 100vw;
+        height: auto;
+        
+    }
+    
+    #cover {
+    top: 20vh;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    z-index: 2;
+        
+    }
+    
+    .title {
+        margin-top: 0px;
+        margin-left: 30%;
+        font-size: 16pt;
         }
+    
+    #intech{
+        position: absolute;
+        top: 10vh;
+        z-index: 3;
+        left: 0;
+        margin-left: 12%;
+        color: white;
 
-        .content {
-            
-            margin-left: 30%;
-            font-size: 8pt;
-        }
+    }
+    
+    #mainpara{
+        position: absolute;
+        top: 20vh;
+        margin-left: 12%;
+        font-size: 8pt;
+        z-index: 3;
+    }
+
+    .quotes{
+        position: relative;
+        font-size: 13pt;
+        margin: 12%;
+        top:0;
+        left: 0;
+        right: 5%;
+    }
+    
+    .para_tech{
+        position: relative;
+        font-size: 8pt;
+        left: 12%;
+        margin-left: 0;
+        top: 10%;
+    }
+    
+    #blur{
+        position: relative;
+        font-size: 13pt;
+        left: 0;
+        margin: 5%;
+        padding-bottom:5vh; 
+    }
+    
+    #para{
+        font-size: 8pt;
+        
+    }
 /* Mobile */
-        #binary {
-            
-            font-size: 6pt;
-            width: 70%;
-            font-family: 'Roboto';
-            
-        }
-
-        header {
-            float: none;
-            width: 100%;
-        }
-
-        #clear {
-            margin-top: 18px;
-            margin-right: 18px;
-            max-width: 15vw;
 
         }
 
-        #menu{
-            margin:  -10;
-            top: 3px;
-            max-height: 13vw;
-            max-width: 6.5vw;
-        }
+    
+
+
     
     #whitetext {
         position: absolute;
@@ -1106,3 +1187,28 @@ nav ul li {
 }
 
 
+
+
+
+#coins {
+    position: absolute;
+    max-width: 130px;
+    left: 50%;
+    top: 30%;
+    opacity: 0.5;
+}
+
+#para {
+    position: relative; 
+    margin-left: 4%;  
+    line-height: 1.4;
+    margin-right: 59%;
+}
+
+#informal {
+    position: relative;
+    font-size: 20pt; 
+    font-weight: 600; 
+    margin-top:5%; 
+    margin-left: 4%;
+}
