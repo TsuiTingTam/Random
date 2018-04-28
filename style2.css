@@ -518,7 +518,7 @@ head {
 #mainpara {
     position: absolute;
     right: 0;
-    top: 50px;
+    top: 80px;
     margin-left: 67%;
     margin-right: 6%;
     font-size: 15px;
@@ -583,7 +583,7 @@ img {
     top: 0;
     font-size: 20pt;
     font-weight: 600; 
-    margin-top: 2;
+    margin-top: 3%;
     margin-left: 67%;
     margin-right: 6%;
 }
