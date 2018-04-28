@@ -499,6 +499,7 @@ head {
     left: 75%;
     color: #00FF00;
 	font-weight: 700;
+    
 }
 
 
@@ -1239,6 +1240,7 @@ nav ul li {
     #greentext {
         font-size: 8pt;
         color: green;
+        
     }
    /* Small Tablets */ 
     #right{
