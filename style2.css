@@ -25,6 +25,11 @@ header {
 	border: transparent;
     
 }
+
+p {
+    font-family:'Adelle Sans';
+    font-weight: normal;
+}
 .logo {
 	color: #fff;
 	font-weight: bold;
