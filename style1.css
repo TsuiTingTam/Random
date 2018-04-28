@@ -599,7 +599,7 @@ a {
 .blank_small {
     height:100px;
 }
-/*Mobile*/
+
 #menu {
     position: fixed;
     height: 50px;
@@ -1064,8 +1064,8 @@ nav ul li {
     }
   /* Small Tablets */   
     #menu{
-        height: 30px;
-        width: 15px;
+        height: 40px;
+        width: 20px;
     }
    /* Small Tablets */  
     #whitetext{
