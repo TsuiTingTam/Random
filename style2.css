@@ -620,8 +620,8 @@ img {
 
 a {
     z-index: 10000;
-    color: inherit;
-    text-decoration: inherit;
+    color: none;
+    text-decoration: none;
     
 }
 
