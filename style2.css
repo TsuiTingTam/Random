@@ -549,7 +549,7 @@ head {
     position: relative;
     font-size: 20pt; 
     font-weight: 600; 
-    margin-top:10%; 
+    margin-top:5%; 
     margin-left: 4%;
 }
 
@@ -671,7 +671,7 @@ a {
     margin-left: 59%;
     bottom: -5%;
     max-width: 45%;
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 #randomfix {
