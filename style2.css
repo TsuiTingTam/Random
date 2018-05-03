@@ -592,7 +592,7 @@ img {
 #img {
     height: 100vh;
     width: auto;
-    background-color: black;
+    background-color: white;
 }
 
 #cover {
@@ -1174,7 +1174,7 @@ nav ul li {
     .random_light  {
             position: absolute;
             max-width: 20vw;
-            font-size: 50pt;
+            font-size: 80px;
             margin-left: 0;
             bottom: 0px;
  
@@ -1277,8 +1277,8 @@ nav ul li {
     }
   /* Small Tablets */  
     #mainpara{
-        position: relative;
-        margin: -30% 10% 0% 10%;
+        position: absolute;
+        margin: 40% 10% 0% 10%;
         font-size: 11pt;
     }
     
