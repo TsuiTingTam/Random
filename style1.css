@@ -880,8 +880,9 @@ a {
         position: absolute;
         color: white;
         top: 20vh;
-        margin-right: 12%;
+        margin-right: 15%;
         font-size: 16pt;
+        left: 10%;
     }
     
     #greentext {

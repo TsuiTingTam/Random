@@ -873,7 +873,7 @@ a {
         top: -8vh;
         right: 0;
         transition: all 1s linear;
-        opacity: 0.6;
+        opacity: 0.3;
     }
 /* Mobile */    
     #white{
@@ -1306,7 +1306,7 @@ nav ul li {
         margin-top:20%;
         margin-right: 10%;
         top: 320px;
-        margin-bottom: 15%;
+        margin-bottom: 30%;
     }
     
     
