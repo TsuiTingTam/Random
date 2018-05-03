@@ -316,6 +316,7 @@ button {
     width: 47%;
 	letter-spacing: 2px;
 	font-family: 'Roboto';
+    font-size: 12pt;
 	
 
 }
@@ -490,7 +491,7 @@ head {
     color: white;
     top: 30%;
     left: 20%;
-    font-size: 40px;
+    font-size: 30pt;
 	font-weight: 700;
 }
 
@@ -500,6 +501,7 @@ head {
     left: 75%;
     color: #00FF00;
 	font-weight: 700;
+    font-size: 12pt;
 }
 
 
@@ -872,8 +874,8 @@ a {
         #menu{
             margin:  -10;
             top: 3px;
-            max-height: 13vw;
-            max-width: 6.5vw;
+            height: 30px;
+            width: 15px;
         }
     
     #whitetext {
