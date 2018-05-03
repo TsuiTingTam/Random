@@ -558,6 +558,7 @@ head {
     top: 35%;
     margin-right: 12%;
     margin-left: 51%;
+    margin-bottom: 5%;
     z-index: 300;
     font-size: 15px;
     line-height: 140%;
@@ -589,7 +590,8 @@ img {
 }
 
 #img {
-    height: 700px;
+    height: 100vh;
+    width: auto;
     background-color: black;
 }
 
@@ -610,7 +612,7 @@ img {
 }
 #blur {
     position: absolute;
-    top:10%;
+    top:20%;
     left: 20%;
     font-weight: 900;
     font-size: 20pt;
@@ -669,7 +671,7 @@ a {
 #people {
     position: fixed;
     margin-left: 59%;
-    bottom: -5%;
+    bottom: -15%;
     max-width: 45%;
     opacity: 0.5;
 }
